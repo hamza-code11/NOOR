@@ -1,12 +1,12 @@
 // data/categoryCardsData.js
-import img1 from "../assets/categoryimage/01.JFIF";
-import img2 from "../assets/categoryimage/02.JFIF";
+import img1 from "../assets/categoryimage/01.jfif";
+import img2 from "../assets/categoryimage/02.jfif";
 import img3 from "../assets/categoryimage/03.webp";
 import img4 from "../assets/categoryimage/04.jpg";
 import img5 from "../assets/categoryimage/05.webp";
 import img6 from "../assets/categoryimage/06.jpg";
 import img7 from "../assets/categoryimage/07.jpg";
-import img8 from "../assets/categoryimage/08.JFIF";
+import img8 from "../assets/categoryimage/08.jfif";
 import img9 from "../assets/categoryimage/09.jpg";
 
 export const categoryCards = [
