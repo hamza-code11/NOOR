@@ -1,0 +1,74 @@
+
+@import "tailwindcss";
+
+@theme {
+  /* Primary Colors - Brand: #163d2b */
+  --color-primary: #163d2b;
+  --color-primary-DEFAULT: #163d2b;
+  --color-primary-light: #1e5238;
+  --color-primary-dark: #0f2b1e;
+  --color-primary-50: #e8f0ec;
+  --color-primary-100: #d1e1d8;
+  --color-primary-200: #a3c3b1;
+  --color-primary-300: #75a58a;
+  --color-primary-400: #478763;
+  --color-primary-500: #163d2b;
+  --color-primary-600: #123124;
+  --color-primary-700: #0e251c;
+  --color-primary-800: #0a1914;
+  --color-primary-900: #060f0c;
+
+  /* Gold Colors - Premium Accent */
+  --color-gold: #D4AF37;
+  --color-gold-DEFAULT: #D4AF37;
+  --color-gold-light: #E5C965;
+  --color-gold-dark: #B8941F;
+  --color-gold-50: #FBF5E3;
+  --color-gold-100: #F7EDCC;
+  --color-gold-200: #EFDA99;
+  --color-gold-300: #E5C965;
+  --color-gold-400: #D4AF37;
+  --color-gold-500: #C4A030;
+  --color-gold-600: #B8941F;
+  --color-gold-700: #9A7A18;
+  --color-gold-800: #7D6212;
+  --color-gold-900: #5C480C;
+
+  /* Secondary */
+  --color-secondary: #ffffff;
+  --color-secondary-dark: #f5f5f5;
+
+  /* Text */
+  --color-text-primary: #1a1a1a;
+  --color-text-secondary: #4a4a4a;
+  --color-text-muted: #6b7280;
+
+  /* Animations */
+  --animate-slideDown: slideDown 0.3s ease-out;
+  --animate-slideRight: slideRight 0.3s ease-out;
+  --animate-slideUp: slideUp 0.3s ease-out;
+  --animate-fadeIn: fadeIn 0.2s ease-out;
+
+  @keyframes slideDown {
+    0% { opacity: 0; transform: translateY(-10px); }
+    100% { opacity: 1; transform: translateY(0); }
+  }
+  @keyframes slideRight {
+    0% { transform: translateX(-100%); }
+    100% { transform: translateX(0); }
+  }
+  @keyframes slideUp {
+    0% { opacity: 0; transform: translateY(10px); }
+    100% { opacity: 1; transform: translateY(0); }
+  }
+  @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+}
+
+
+
+/* ////
+//////
+/// */
