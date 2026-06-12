@@ -1,28 +1,29 @@
 // data/bottomBarData.js
 export const bottomBarCategories = [
-  {
-    name: 'Clothing',
-    sections: [
-      {
-        title: 'Men Clothing',
-        items: ['T-Shirts', 'Polo Shirts', 'Casual Shirts', 'Formal Shirts', 'Jeans', 'Trousers', 'Shorts', 'Jackets', 'Blazers', 'Suits', 'Sweaters', 'Hoodies', 'Kurta Pajama', 'Ethnic Wear']
-      },
-      {
-        title: 'Women Clothing',
-        items: ['Kurtis', 'Sarees', 'Lehengas', 'Dresses', 'Tops', 'T-Shirts', 'Jeans', 'Skirts', 'Palazzos', 'Winter Wear', 'Nightwear', 'Dupattas']
-      },
-      {
-        title: 'Teens Clothing',
-        items: ['Graphic Tees', 'Hoodies', 'Jeans', 'Shorts', 'Skirts', 'Dresses', 'Joggers', 'Crop Tops']
-      },
-      {
-        title: 'Kids Clothing',
-        items: ['T-Shirts', 'Shorts', 'Frocks', 'Jeans', 'Winter Wear', 'School Uniforms']
-      },
-    ]
-  },
+  // {
+  //   name: 'Clothing',
+  //   sections: [
+  //     {
+  //       title: 'Men Clothing',
+  //       items: ['T-Shirts', 'Polo Shirts', 'Casual Shirts', 'Formal Shirts', 'Jeans', 'Trousers', 'Shorts', 'Jackets', 'Blazers', 'Suits', 'Sweaters', 'Hoodies', 'Kurta Pajama', 'Ethnic Wear']
+  //     },
+  //     {
+  //       title: 'Women Clothing',
+  //       items: ['Kurtis', 'Sarees', 'Lehengas', 'Dresses', 'Tops', 'T-Shirts', 'Jeans', 'Skirts', 'Palazzos', 'Winter Wear', 'Nightwear', 'Dupattas']
+  //     },
+  //     {
+  //       title: 'Teens Clothing',
+  //       items: ['Graphic Tees', 'Hoodies', 'Jeans', 'Shorts', 'Skirts', 'Dresses', 'Joggers', 'Crop Tops']
+  //     },
+  //     {
+  //       title: 'Kids Clothing',
+  //       items: ['T-Shirts', 'Shorts', 'Frocks', 'Jeans', 'Winter Wear', 'School Uniforms']
+  //     },
+  //   ]
+  // },
   {
     name: 'Jewelry',
+    link: '/jewelry-collection',
     sections: [
       {
         title: 'Gold Jewelry',
@@ -44,6 +45,7 @@ export const bottomBarCategories = [
   },
   {
     name: 'Perfumes',
+    link: '/perfume-collection',
     sections: [
       {
         title: 'Men Perfumes',
@@ -65,6 +67,7 @@ export const bottomBarCategories = [
   },
   {
     name: 'Shoes',
+    link: '/shoes-collection',
     sections: [
       {
         title: 'Men Shoes',
@@ -86,6 +89,7 @@ export const bottomBarCategories = [
   },
   {
     name: 'Under Garments',
+    link: '/lingerie-collection',
     sections: [
       {
         title: 'Men Innerwear',
@@ -108,27 +112,27 @@ export const bottomBarCategories = [
   // ============================================================
   // NEW CATEGORIES ADDED BELOW
   // ============================================================
-  {
-    name: 'Watches',
-    sections: [
-      {
-        title: 'Men Watches',
-        items: ['Analog', 'Digital', 'Chronograph', 'Smart Watches', 'Sports Watches', 'Casual Watches', 'Formal Watches', 'Luxury Watches']
-      },
-      {
-        title: 'Women Watches',
-        items: ['Analog', 'Digital', 'Smart Watches', 'Fashion Watches', 'Bracelet Watches', 'Luxury Watches']
-      },
-      {
-        title: 'Top Brands',
-        items: ['Fastrack', 'Titan', 'Sonata', 'Casio', 'Fossil', 'Tommy Hilfiger', 'Daniel Klein', 'Michael Kors', 'Rolex']
-      },
-      {
-        title: 'Watch Accessories',
-        items: ['Watch Straps', 'Watch Cases', 'Watch Winders', 'Screen Protectors', 'Charging Cables']
-      },
-    ]
-  },
+  // {
+  //   name: 'Watches',
+  //   sections: [
+  //     {
+  //       title: 'Men Watches',
+  //       items: ['Analog', 'Digital', 'Chronograph', 'Smart Watches', 'Sports Watches', 'Casual Watches', 'Formal Watches', 'Luxury Watches']
+  //     },
+  //     {
+  //       title: 'Women Watches',
+  //       items: ['Analog', 'Digital', 'Smart Watches', 'Fashion Watches', 'Bracelet Watches', 'Luxury Watches']
+  //     },
+  //     {
+  //       title: 'Top Brands',
+  //       items: ['Fastrack', 'Titan', 'Sonata', 'Casio', 'Fossil', 'Tommy Hilfiger', 'Daniel Klein', 'Michael Kors', 'Rolex']
+  //     },
+  //     {
+  //       title: 'Watch Accessories',
+  //       items: ['Watch Straps', 'Watch Cases', 'Watch Winders', 'Screen Protectors', 'Charging Cables']
+  //     },
+  //   ]
+  // },
   {
     name: 'Bags',
     sections: [
@@ -150,25 +154,25 @@ export const bottomBarCategories = [
       },
     ]
   },
-  {
-    name: 'Electronics',
-    sections: [
-      {
-        title: 'Mobile Phones',
-        items: ['Smartphones', 'Feature Phones', 'Phone Cases', 'Screen Protectors', 'Chargers', 'Power Banks']
-      },
-      {
-        title: 'Audio',
-        items: ['Headphones', 'Earphones', 'Bluetooth Speakers', 'Soundbars', 'Home Theaters']
-      },
-      {
-        title: 'Laptops & Computers',
-        items: ['Laptops', 'Desktop PCs', 'Monitors', 'Keyboards', 'Mouse', 'Printers', 'Scanners']
-      },
-      {
-        title: 'Top Brands',
-        items: ['Apple', 'Samsung', 'Sony', 'Bose', 'JBL', 'HP', 'Dell', 'Lenovo', 'Asus']
-      },
-    ]
-  },
+  // {
+  //   name: 'Electronics',
+  //   sections: [
+  //     {
+  //       title: 'Mobile Phones',
+  //       items: ['Smartphones', 'Feature Phones', 'Phone Cases', 'Screen Protectors', 'Chargers', 'Power Banks']
+  //     },
+  //     {
+  //       title: 'Audio',
+  //       items: ['Headphones', 'Earphones', 'Bluetooth Speakers', 'Soundbars', 'Home Theaters']
+  //     },
+  //     {
+  //       title: 'Laptops & Computers',
+  //       items: ['Laptops', 'Desktop PCs', 'Monitors', 'Keyboards', 'Mouse', 'Printers', 'Scanners']
+  //     },
+  //     {
+  //       title: 'Top Brands',
+  //       items: ['Apple', 'Samsung', 'Sony', 'Bose', 'JBL', 'HP', 'Dell', 'Lenovo', 'Asus']
+  //     },
+  //   ]
+  // },
 ];

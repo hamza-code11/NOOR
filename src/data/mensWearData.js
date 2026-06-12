@@ -100,4 +100,14 @@ export const mensWearProducts = [
     originalPrice: '$229.99',
     link: '/product/men-sunglasses',
   },
+    {
+    id: 10,
+    image: men2,
+    brand: 'Ray-Ban',
+    category: 'Sunglasses',
+    name: 'Aviator Classic Sunglasses',
+    price: '$149.99',
+    originalPrice: '$229.99',
+    link: '/product/men-sunglasses',
+  },
 ];

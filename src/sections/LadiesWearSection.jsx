@@ -65,7 +65,7 @@ const LadiesWearSection = () => {
           </div>
 
           <a 
-            href="/women"
+            href="/women-collection"
             className="hidden md:flex items-center gap-2 text-gold-light hover:text-gold font-semibold text-sm transition-colors group border-b-2 border-gold/50 hover:border-gold pb-1"
           >
             View All

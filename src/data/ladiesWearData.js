@@ -100,4 +100,14 @@ export const ladiesWearProducts = [
     originalPrice: '$299.99',
     link: '/product/chanel-perfume',
   },
+    {
+    id: 10,
+    image: img6,
+    brand: 'Chanel',
+    category: 'Perfumes',
+    name: 'Coco Mademoiselle Eau de Parfum',
+    price: '$189.99',
+    originalPrice: '$299.99',
+    link: '/product/chanel-perfume',
+  },
 ];

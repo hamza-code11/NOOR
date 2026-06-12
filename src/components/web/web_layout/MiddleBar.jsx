@@ -127,7 +127,7 @@
 import React, { useState } from 'react';
 import { ShoppingCart, User, Heart, Search, Crown } from 'lucide-react';
 import SearchBar from './SearchBar';
-import logo from '../../assets/logo/logo.png';
+import logo from '../../../assets/logo/logo.png';
 
 const MiddleBar = () => {
   const [searchQuery, setSearchQuery] = useState('');
