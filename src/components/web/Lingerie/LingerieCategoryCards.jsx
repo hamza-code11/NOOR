@@ -3,9 +3,9 @@ import React from 'react';
 
 import img1 from '../../../assets/lingerie/bras-removebg-preview.png';
 import img2 from '../../../assets/lingerie/panti-removebg-preview.png';
-import img3 from '../../../assets/lingerie/Sets-removebg-preview.png';
-import img4 from '../../../assets/lingerie/Sleepwear-removebg-preview.png';
-import img5 from '../../../assets/lingerie/Shapewear-removebg-preview.png';
+import img3 from '../../../assets/lingerie/sets-removebg-preview.png';
+import img4 from '../../../assets/lingerie/sleepwear-removebg-preview.png';
+import img5 from '../../../assets/lingerie/shapewear-removebg-preview.png';
 import img6 from '../../../assets/lingerie/Camisoles-removebg-preview.png';
 import img7 from '../../../assets/lingerie/Robes-removebg-preview.png';
 import img8 from '../../../assets/lingerie/Plus_Size-removebg-preview.png';
