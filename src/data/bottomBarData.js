@@ -135,6 +135,7 @@ export const bottomBarCategories = [
   // },
   {
     name: 'Bags',
+    link: '/bags-collection',
     sections: [
       {
         title: 'Men Bags',

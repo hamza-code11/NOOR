@@ -1,25 +1,28 @@
-// pages/MensAsianCollection.jsx
+// pages/JewelryProducts.jsx
 import React, { useState } from 'react';
 import { ArrowLeft } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
-import { mensWearProducts } from '../../data/mensWearData';
+import { newArrivals } from '../../data/collection/jewlleryArrivalsData';
 import ProductCard from '../../components/web/ProductCard/ProductCard';
 
-const MensAsianCollection = () => {
+const JewelryProducts = () => {
   const navigate = useNavigate();
   const [activeFilter, setActiveFilter] = useState('all');
 
   const filters = [
     { id: 'all', name: 'All' },
-    { id: 'RTW', name: 'RTW' },
-    { id: 'Kurta', name: 'Kurta' },
-    { id: 'Bottomwear', name: 'Bottomwear' },
-    { id: 'Essentials', name: 'Essentials' },
+    { id: 'Necklaces', name: 'Necklaces' },
+    { id: 'Earrings', name: 'Earrings' },
+    { id: 'Ring', name: 'Ring' },
+    { id: 'Bangles', name: 'Bangles' },
+    { id: 'Nose Pin', name: 'Nose Pin' },
+    { id: 'Bracelets', name: 'Bracelets' },
+    { id: 'Bridal Set', name: 'Bridal Set' },
   ];
 
   const filteredProducts = activeFilter === 'all'
-    ? mensWearProducts
-    : mensWearProducts.filter(p => p.category === activeFilter);
+    ? newArrivals
+    : newArrivals.filter(p => p.category === activeFilter);
 
   return (
     <div className="min-h-screen bg-primary">
@@ -38,7 +41,7 @@ const MensAsianCollection = () => {
             </button>
 
             <h1 className="text-lg md:text-xl lg:text-2xl font-bold text-gold-light tracking-wide">
-              Men's Asian Collection
+              Jewelry Collection
             </h1>
 
             <div className="w-10"></div>
@@ -58,7 +61,7 @@ const MensAsianCollection = () => {
           </div>
           
           {/* Filter Options */}
-          <div className="flex items-center gap-6 md:gap-8 lg:gap-10 overflow-x-auto scrollbar-hide pb-3">
+          <div className="flex items-center gap-5 md:gap-7 lg:gap-9 overflow-x-auto scrollbar-hide pb-3">
             {filters.map((filter) => (
               <button
                 key={filter.id}
@@ -114,4 +117,4 @@ const MensAsianCollection = () => {
   );
 };
 
-export default MensAsianCollection;
+export default JewelryProducts;

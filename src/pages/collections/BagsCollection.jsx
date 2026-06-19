@@ -1,12 +1,12 @@
-// pages/ShoesCollection.jsx
+// pages/BagsCollection.jsx
 import React from 'react';
 import { ArrowLeft } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
-import ShoesBanner from '../../components/web/Shoes/ShoesBanner';
-import ShoesCategoryCards from '../../components/web/Shoes/ShoesCategoryCards';
-import ShoesLatestArrivals from '../../components/web/Shoes/ShoesLatestArrivals';
+import BagsBanner from '../../components/web/Bags/BagsBanner';
+import BagsCategoryCards from '../../components/web/Bags/BagsCategoryCards';
+import BagsLatestArrivals from '../../components/web/Bags/BagsLatestArrivals';
 
-const ShoesCollection = () => {
+const BagsCollection = () => {
   const navigate = useNavigate();
 
   return (
@@ -26,7 +26,7 @@ const ShoesCollection = () => {
             </button>
 
             <h1 className="text-lg md:text-xl lg:text-2xl font-bold text-gold-light tracking-wide">
-              Shoes Collection
+              Ladies Bags
             </h1>
 
             <div className="w-10"></div>
@@ -35,15 +35,15 @@ const ShoesCollection = () => {
       </header>
 
       {/* Banner */}
-      <ShoesBanner />
+      <BagsBanner />
 
       {/* Category Cards - 8 per row */}
-      <ShoesCategoryCards />
+      <BagsCategoryCards />
 
-      {/* Latest Arrivals */}
-      <ShoesLatestArrivals />
+      {/* Latest Arrivals - 4 per row */}
+      <BagsLatestArrivals />
     </div>
   );
 };
 
-export default ShoesCollection;
+export default BagsCollection;

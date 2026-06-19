@@ -1,5 +1,6 @@
 import Hero from "../../sections/HeroSlider";
 import CategoryCards from "../../sections/CategoryCards";
+import JourneySection from "../../sections/JourneySection";
 import MensBanner from "../../sections/MensBanner";
 import MensWearSection from "../../sections/MensWearSection";
 import JewelryBanner from "../../sections/JewelryBanner";
@@ -16,7 +17,7 @@ export default function Home() {
     return (
         <>
             <Hero />
-            <CategoryCards />
+            <CategoryCards />           
             <LadiesWearBanner />
             <LadiesWearSection />
             <MensBanner />
@@ -25,6 +26,7 @@ export default function Home() {
             <JewelryBanner />
             <JewelrySection />
             <ShoesSection />
+            <JourneySection />
             <MoreCategoriesSection />
             <BlogSection />
         </>

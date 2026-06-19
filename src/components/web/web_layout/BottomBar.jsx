@@ -353,7 +353,7 @@ const BottomBar = () => {
   const navLinks = [
     { name: 'Men', href: '/men-collection' }, 
     { name: 'Women', href: '/women-collection' },
-    { name: 'Teens', href: '/teens' },
+    { name: 'Teens', href: '/teens-collection' },
   ];
 
   const cartCount = 3;

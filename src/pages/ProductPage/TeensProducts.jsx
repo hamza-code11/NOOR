@@ -1,25 +1,25 @@
-// pages/MensAsianCollection.jsx
+// pages/TeensProducts.jsx
 import React, { useState } from 'react';
 import { ArrowLeft } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
-import { mensWearProducts } from '../../data/mensWearData';
+import { teensProducts } from '../../data/collection/teensProductsData';
 import ProductCard from '../../components/web/ProductCard/ProductCard';
 
-const MensAsianCollection = () => {
+const TeensProducts = () => {
   const navigate = useNavigate();
   const [activeFilter, setActiveFilter] = useState('all');
 
   const filters = [
     { id: 'all', name: 'All' },
     { id: 'RTW', name: 'RTW' },
-    { id: 'Kurta', name: 'Kurta' },
+    { id: 'Kurti', name: 'Kurti' },
     { id: 'Bottomwear', name: 'Bottomwear' },
     { id: 'Essentials', name: 'Essentials' },
   ];
 
   const filteredProducts = activeFilter === 'all'
-    ? mensWearProducts
-    : mensWearProducts.filter(p => p.category === activeFilter);
+    ? teensProducts
+    : teensProducts.filter(p => p.category === activeFilter);
 
   return (
     <div className="min-h-screen bg-primary">
@@ -37,8 +37,8 @@ const MensAsianCollection = () => {
               <ArrowLeft size={22} />
             </button>
 
-            <h1 className="text-lg md:text-xl lg:text-2xl font-bold text-gold-light tracking-wide">
-              Men's Asian Collection
+            <h1 className="text-lg md:text-xl lg:text-2xl font-bold text-gold tracking-wide">
+              Teens Collection
             </h1>
 
             <div className="w-10"></div>
@@ -79,7 +79,7 @@ const MensAsianCollection = () => {
         </div>
       </div>
 
-      {/* Products Grid - 5 Cards Per Row */}
+      {/* Products Grid */}
       <div className="max-w-[1400px] mx-auto px-4 lg:px-6 xl:px-8 py-6 md:py-8 relative z-10">
         
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4 md:gap-5">
@@ -114,4 +114,4 @@ const MensAsianCollection = () => {
   );
 };
 
-export default MensAsianCollection;
+export default TeensProducts;
