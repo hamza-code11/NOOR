@@ -21,7 +21,7 @@ const JourneySection = () => {
                         The BIGEEST Journey
                     </h2>
                     <p className="text-white/60 text-xs sm:text-sm md:text-base max-w-2xl mx-auto px-2">
-                        From a small dream to Pakistan's largest ecommerce destination
+                        From a small dream to Asia largest ecommerce destination
                     </p>
                 </div>
 
@@ -58,7 +58,7 @@ const JourneySection = () => {
 
                         {/* Single Description Paragraph */}
                         <p className="text-white/60 text-xs sm:text-sm md:text-base leading-relaxed mb-6 md:mb-8">
-                            Noor was launched in 2018 with a simple goal: to make quality shopping easy, affordable, and accessible across Pakistan. What started as a small online store has now grown into a fast-expanding multi-category ecommerce platform serving thousands of customers nationwide. Today, Noor brings everything under one roof including clothing for men, women, and teens, jewelry, perfumes, shoes, bags, undergarments, and a wide range of lifestyle products. With strong focus on quality, variety, and customer trust, we work with reliable suppliers and brands to ensure value in every order. Backed by a growing logistics network, Noor delivers quickly and efficiently across Pakistan while continuously improving the shopping experience. Our vision is simple yet ambitious: to become one of South Asia’s most trusted and loved online marketplaces where customers can shop with confidence, convenience, and satisfaction.
+                            Noor was launched in 2018 with a simple goal: to make quality shopping easy, affordable, and accessible across Asia. What started as a small online store has now grown into a fast-expanding multi-category ecommerce platform serving thousands of customers nationwide. Today, Noor brings everything under one roof including clothing for men, women, and teens, jewelry, perfumes, shoes, bags, undergarments, and a wide range of lifestyle products. With strong focus on quality, variety, and customer trust, we work with reliable suppliers and brands to ensure value in every order. Backed by a growing logistics network, Noor delivers quickly and efficiently across Asia while continuously improving the shopping experience. Our vision is simple yet ambitious: to become one of South Asia’s most trusted and loved online marketplaces where customers can shop with confidence, convenience, and satisfaction.
                         </p>
 
                         {/* Stats */}
@@ -77,7 +77,6 @@ const JourneySection = () => {
               </div>
             </div> */}
 
-                        {/* View More Link */}
                         {/* View More Link */}
                         <a
                             href="#"
